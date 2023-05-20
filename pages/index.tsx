@@ -25,7 +25,10 @@ export default function Home() {
   }>({
     messages: [
       {
+
         message: 'Hi, how can I assist you with the workout programme?',
+
+
         type: 'apiMessage',
       },
     ],
@@ -125,7 +128,9 @@ export default function Home() {
       <Layout>
         <div className="mx-auto flex flex-col gap-4">
           <h1 className="text-2xl font-bold leading-[1.1] tracking-tighter text-center">
+
             Chat With Your Running Coach
+
           </h1>
           <main className={styles.main}>
             <div className={styles.cloud}>
@@ -224,7 +229,9 @@ export default function Home() {
                     placeholder={
                       loading
                         ? 'Waiting for response...'
+
                         : 'Explain the principles of training used.'
+
                     }
                     value={query}
                     onChange={(e) => setQuery(e.target.value)}
