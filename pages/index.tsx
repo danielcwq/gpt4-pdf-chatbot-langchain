@@ -132,6 +132,15 @@ export default function Home() {
             Chat With Your Running Coach
 
           </h1>
+          <p className = "text-lg text-justify px-24">
+            This is a chatbot that is built on top of articles written about the <b>2.4km run distance.</b>
+            The chatbot is able to answer questions about the training methodologies used, based on explanations from the articles. 
+            <br></br>
+            The main article (detailing the exact workouts) is found <a className="hover:text-blue-600"
+              target="_blank" href = "https://betterhumans.pub/how-to-get-good-at-2-4km-a-comprehensive-guide-85e9669ee19c">here</a>, whereas 
+            my approach to training can be found <a className="hover:text-blue-600"
+              target="_blank" href = "https://betterhumans.pub/preventing-overtraining-achieving-sustainable-growth-c47fcc6c2d7f"> here</a>. 
+          </p>
           <main className={styles.main}>
             <div className={styles.cloud}>
               <div ref={messageListRef} className={styles.messagelist}>
